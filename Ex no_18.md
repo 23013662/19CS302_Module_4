@@ -29,7 +29,6 @@ int main() {
     int i, frequency = 0;
     scanf("%s", str);
     scanf(" %c", &ch);
-
     for(i = 0; str[i] != '\0'; ++i){
         if(ch == str[i])
             ++frequency;
